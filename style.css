@@ -1,0 +1,68 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: burlywood;
+  padding-bottom: 50px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.famous-saying {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+}
+img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.weather {
+  text-align: end;
+  margin-bottom: 70px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form input {
+  font-size: 20px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
